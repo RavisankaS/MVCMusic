@@ -1,0 +1,95 @@
+﻿@model MVC_Music.Models.Musician
+
+@{
+    ViewData["Title"] = "Delete Musician";
+}
+
+<h2>Delete Musician</h2>
+
+<h3>Are you sure you want to delete @Model.FullName?</h3>
+<div>
+    <hr />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MiddleName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MiddleName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneFormatted)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SIN)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SINFormatted)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Instrument)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Instrument.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Plays)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                int playCount = Model.Plays.Count;
+                if (playCount > 0)
+                {
+                    string firstPlay = Model.Plays.FirstOrDefault().Instrument.Name;
+                    if (playCount > 1)
+                    {
+                        string playList = "";
+                        var c = Model.Plays.ToList();
+                        for (int i = 1; i < playCount; i++)//Skip the first because we have it already
+                        {
+                            playList += c[i].Instrument.Name + " <br />";
+                        }
+                        <a class="" role="button" data-bs-toggle="collapse" href="#collapseHistory@(Model.ID)"
+                                aria-expanded="false" aria-controls="collapseHistory@(Model.ID)">
+                            @firstPlay <span class="badge bg-info">@playCount</span>
+                        </a>
+                        <div class="collapse" id="collapseHistory@(Model.ID)">
+                            @Html.Raw(playList)
+                        </div>
+                    }
+                    else
+                    {
+                        @firstPlay
+                    }
+                }
+            }
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a href='@ViewData["returnURL"]'>Back to Musician List</a>
+    </form>
+</div>

@@ -1,0 +1,53 @@
+﻿@model MVC_Music.Models.Song
+
+@{
+    ViewData["Title"] = "Create Song";
+}
+
+<h2>Create Song</h2>
+
+<hr />
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateRecorded" class="control-label"></label>
+                <input asp-for="DateRecorded" class="form-control" />
+                <span asp-validation-for="DateRecorded" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AlbumID" class="control-label"></label>
+                <select asp-for="AlbumID" class="form-control" asp-items="ViewBag.AlbumID">
+                    <option value="">Select the Album</option>
+                </select>
+                <span asp-validation-for="AlbumID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GenreID" class="control-label"></label>
+                <select asp-for="GenreID" class="form-control" asp-items="ViewBag.GenreID">
+                    <option value="">Select the Genre</option>
+                </select>
+                <span asp-validation-for="GenreID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Next" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a href='@ViewData["returnURL"]'>Back to Song List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

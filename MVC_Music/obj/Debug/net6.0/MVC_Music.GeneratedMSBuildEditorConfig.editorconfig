@@ -1,0 +1,269 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC_Music
+build_property.RootNamespace = MVC_Music
+build_property.ProjectDir = G:\All Files\New folder (7)\Design Patterns\Part4-Ravisanka_Siriwardenage\MVC_Music\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\All Files\New folder (7)\Design Patterns\Part4-Ravisanka_Siriwardenage\MVC_Music
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Albums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Albums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Albums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Albums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Albums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Genres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Genres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Genres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Genres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Instruments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Instruments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Instruments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Instruments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Instruments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/MusicianDocuments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5Eb2N1bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/MusicianDocuments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5Eb2N1bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/MusicianDocuments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5Eb2N1bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Musicians/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Musicians/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Musicians/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Musicians/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Musicians/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Shared/_PageSizeModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlU2l6ZU1vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Shared/_PagingNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmdOYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/SongPerformances/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BlcmZvcm1hbmNlc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/SongPerformances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BlcmZvcm1hbmNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/SongPerformances/PerformanceSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BlcmZvcm1hbmNlc1xQZXJmb3JtYW5jZVN1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/SongPerformances/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BlcmZvcm1hbmNlc1xSZW1vdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/SongPerformances/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1BlcmZvcm1hbmNlc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Songs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Songs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Songs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Songs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Songs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/UserRoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/UserRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/All Files/New folder (7)/Design Patterns/Part4-Ravisanka_Siriwardenage/MVC_Music/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l87v5mgycq

@@ -1,0 +1,87 @@
+﻿@model MVC_Music.Models.Instrument
+
+@{
+    ViewData["Title"] = "Instrument Details";
+}
+
+<h2>Instrument Details</h2>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Musicians)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                int musicianCount = Model.Musicians.Count;
+                if (musicianCount > 0)
+                {
+                    string firstMusician = Model.Musicians.FirstOrDefault().FullName;
+                    if (musicianCount > 1)
+                    {
+                        string musicianList = "";
+                        var c = Model.Musicians.ToList();
+                        for (int i = 1; i < musicianCount; i++)//Skip the first because we have it already
+                        {
+                            musicianList += c[i].FullName + " <br />";
+                        }
+                        <a class="" role="button" data-bs-toggle="collapse" href="#collapseMusicians@(Model.ID)"
+                   aria-expanded="false" aria-controls="collapseMusicians@(Model.ID)">
+                            @firstMusician <span class="badge bg-info">@musicianCount</span>
+                        </a>
+                        <div class="collapse" id="collapseMusicians@(Model.ID)">
+                            @Html.Raw(musicianList)
+                        </div>
+                    }
+                    else
+                    {
+                        @firstMusician
+                    }
+                }
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Plays)
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                int playCount = Model.Plays.Count;
+                if (playCount > 0)
+                {
+                    string firstPlay = Model.Plays.FirstOrDefault().Musician.FullName;
+                    if (playCount > 1)
+                    {
+                        string playList = "";
+                        var c = Model.Plays.ToList();
+                        for (int i = 1; i < playCount; i++)//Skip the first because we have it already
+                        {
+                            playList += c[i].Musician.FullName + " <br />";
+                        }
+                        <a class="" role="button" data-bs-toggle="collapse" href="#collapseOther@(Model.ID)"
+                   aria-expanded="false" aria-controls="collapseOther@(Model.ID)">
+                            @firstPlay <span class="badge bg-info">@playCount</span>
+                        </a>
+                        <div class="collapse" id="collapseOther@(Model.ID)">
+                            @Html.Raw(playList)
+                        </div>
+                    }
+                    else
+                    {
+                        @firstPlay
+                    }
+                }
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
+    <a href='@ViewData["returnURL"]'>Back to List</a>
+</div>

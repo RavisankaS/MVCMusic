@@ -1,0 +1,164 @@
+﻿@model IEnumerable<MVC_Music.Models.Performance>
+
+@{
+    ViewData["Title"] = "Song Performances";
+    MVC_Music.Models.Song song = (MVC_Music.Models.Song)ViewBag.Song;
+}
+<h2>Performance Details for Song: <strong>@song.Title</strong></h2>
+<hr/>
+<div class="row">
+    <div class="col-6">
+        <dl class="row">
+            <dt class = "col-sm-4">
+                @Html.DisplayNameFor(model => song.DateRecorded)
+            </dt>
+            <dd class = "col-sm-8">
+                @Html.DisplayFor(model => song.DateRecorded)
+            </dd>
+            <dt class = "col-sm-4">
+                @Html.DisplayNameFor(model => song.Album)
+            </dt>
+            <dd class = "col-sm-8">
+                @Html.DisplayFor(model => song.Album.Name)
+            </dd>
+            <dt class = "col-sm-4">
+                @Html.DisplayNameFor(model => song.Genre)
+            </dt>
+            <dd class = "col-sm-8">
+                @Html.DisplayFor(model => song.Genre.Name)
+            </dd>
+        </dl>
+    </div>
+</div>
+<form asp-action="Index" method="get">
+    <input type="hidden" name="sortDirection" value="@ViewData["sortDirection"]" />
+    <input type="hidden" name="sortField" value="@ViewData["sortField"]" />
+    <input type="hidden" name="SongID" value="@song.ID" />
+    <div class="form-horizontal">
+        <button class="btn @(ViewData["Filtering"])" type="button" data-bs-toggle="collapse" id="filterToggle" data-bs-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+            Filter Performances
+        </button>
+        <div class="form-horizontal">
+            <div class="collapse card card-body bg-light" style="padding-top: 10px; padding-bottom: 5px;" id="collapseFilter">
+                <div class="row">
+                    <div class="form-group col-md-3 ml-md-3">
+                        <label class="control-label">By Musician:</label>
+                        @Html.DropDownList("MusicianID", null, "All Musicians", htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-3 ml-md-3">
+                        <label class="control-label">By Instrument:</label>
+                        @Html.DropDownList("InstrumentID", null, "All Instruments", htmlAttributes: new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Search Comments:</label>
+                        @Html.TextBox("SearchString", null, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-3 align-self-end">
+                        <input type="submit" name="actionButton" value="Apply" class="btn btn-primary" />
+                        <a asp-action="Index" asp-route-SongID="@song.ID">Clear</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <table class="table">
+                <colgroup>
+                    <col span="1" />
+                    <col span="1" />
+                    <col span="1" />
+                    <col span="1" width="400" />
+                    <col span="1" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="submit" name="actionButton" value="Musician" class="btn btn-link" />
+                        </th>
+                        <th>
+                            <input type="submit" name="actionButton" value="Instrument" class="btn btn-link" />
+                        </th>
+                        <td>
+                            <input type="submit" name="actionButton" value="Fee Paid" class="btn btn-link" />
+                            @{
+                                double totalFees = 0d;
+                            }
+                        </td>
+                        <th>
+                            <input type="submit" disabled="disabled" value="Comments" class="btn btn-link" />
+                        </th>
+                        <th>
+                            <a asp-controller="SongPerformances" asp-action="Add" asp-route-SongID="@song.ID"
+                               asp-route-SongTitle="@song.Title">
+                                <span class="btn btn-success" data-bs-toggle="tooltip"
+                                      title="Add Appointment"><strong>&#x271A; Add</strong></span>
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Musician.FormalName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Instrument.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FeePaid)
+                                @{
+                                    totalFees += item.FeePaid;
+                                }
+                            </td>
+                            <td>
+                                @{
+                                    string[] noteWords = item.Comments.Split(' ');
+                                    if (noteWords.Count() > 5)
+                                    {
+                                        <a class="" role="button" data-bs-toggle="collapse" href="#collapseSum@(item.ID)" aria-expanded="false" aria-controls="collapseSum@(item.ID)">
+                                            @(string.Join(" ", noteWords.Take(5)) + "...")
+                                        </a>
+                                        <div class="collapse" id="collapseSum@(item.ID)">
+                                            <div class="well">
+                                                @(string.Join(" ", noteWords.Skip(5)))
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        @item.Comments
+                                    }
+                                }
+                            </td>
+                            <td>
+                                <a asp-controller="SongPerformances" asp-action="Update" asp-route-id="@item.ID">
+                                    <span class="btn btn-sm btn-outline-primary" data-bs-toggle="tooltip" title="Edit Performance">&#x270D;</span>
+                                </a>
+                                <a asp-controller="SongPerformances" asp-action="Remove" asp-route-id="@item.ID">
+                                    <span class="btn btn-sm btn-outline-danger" data-bs-toggle="tooltip" title="Delete Performance">&#x274C;</span>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                    <td></td>
+                    <td align="right">
+                        Total Fees Paid:
+                    </td>
+                    <td>
+                        <strong>@totalFees.ToString("c")</strong>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <partial name="_PagingNavBar" />
+</form>
+<div>
+    <a asp-action="Edit" asp-controller="Songs" asp-route-id="@song.ID">Edit</a> |
+    <a href='@ViewData["returnURL"]'>Back to Song List</a>
+</div>
